@@ -1,24 +1,30 @@
+:root {
+  --primary-color: rgb(245, 71, 195, 0.1);
+  --secondary-color: rgb(46, 20, 36);
+  --primary-font-family: "Poppins", sans-serif;
+}
+
 .upper-info {
   padding: 120px 60px;
-  background-color: rgb(245, 71, 195, 0.1);
+  background-color: var(--primary-color);
 }
 body {
-  color: rgb(46, 20, 36);
+  color: var(--secondary-color);
 }
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
   font-weight: bold;
-  color: rgb(46, 20, 36);
+  color: var(--secondary-color);
 }
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 36px;
   text-align: center;
 }
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: normal;
   font-size: 24px;
 }
@@ -28,7 +34,7 @@ h4 {
   margin-bottom: 60px;
 }
 .btn-info {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 18px;
   padding: 18px 24px;
@@ -39,12 +45,12 @@ h4 {
   max-width: 90%;
 }
 .projects {
-  background-color: rgb(245, 71, 195, 0.1);
+  background-color: var(--primary-color);
   margin: 25px;
   text-align: center;
 }
 .contact-info {
-  background-color: rgb(245, 71, 195, 0.1);
+  background-color: var(--primary-color);
   margin: 50px 70px;
   padding: 40px;
   text-align: center;
