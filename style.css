@@ -43,3 +43,12 @@ h4 {
   margin: 25px;
   text-align: center;
 }
+.contact-info {
+  background-color: rgb(245, 71, 195, 0.1);
+  margin: 50px 70px;
+  padding: 40px;
+  text-align: center;
+}
+.icon-contact {
+  font-size: 40px;
+}
