@@ -70,6 +70,25 @@ h4 {
   margin-bottom: 48px;
   line-height: 30px;
 }
+nav {
+  background-color: var(--primary-color);
+}
+nav p {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+nav li {
+  display: inline;
+  padding: 15px;
+  list-style: none;
+  line-height: 50px;
+}
+nav a {
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  color: var(--secondary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
