@@ -89,6 +89,9 @@ nav a {
   font-weight: 500;
   color: var(--secondary-color);
 }
+.active {
+  color: blueviolet;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
