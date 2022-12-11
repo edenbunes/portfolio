@@ -73,7 +73,7 @@ h4 {
 nav {
   background-color: var(--primary-color);
 }
-nav p {
+nav p a {
   font-size: 30px;
   font-family: "Playfair Display", serif;
 }
@@ -88,6 +88,7 @@ nav a {
   font-family: var(--primary-font-family);
   font-weight: 500;
   color: var(--secondary-color);
+  font-size: 20px;
 }
 .active {
   color: blueviolet;
@@ -95,6 +96,7 @@ nav a {
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
+    margin-bottom: 20px;
   }
   h4 {
     margin-top: 20px;
@@ -118,5 +120,9 @@ nav a {
   .projects {
     margin-left: 0px;
     margin-right: 10px;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
   }
 }
