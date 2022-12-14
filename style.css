@@ -93,6 +93,20 @@ nav a {
 .active {
   color: blueviolet;
 }
+footer h3 {
+  transition: all 0.6s ease-in-out;
+}
+footer h3:hover {
+  font-size: 30px;
+  color: #fa2fbd;
+  font-weight: 500px;
+}
+footer a {
+  transition: all 0.4s ease-in-out;
+}
+footer a:hover {
+  font-size: 35px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
