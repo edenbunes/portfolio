@@ -2,6 +2,8 @@
   --primary-color: rgb(245, 71, 195, 0.1);
   --secondary-color: rgb(46, 20, 36);
   --primary-font-family: "Poppins", sans-serif;
+  --pink-light: #fa2fbd;
+  --pink-dark: #cb007b;
 }
 
 .upper-info {
@@ -90,22 +92,34 @@ nav a {
   color: var(--secondary-color);
   font-size: 20px;
 }
-.active {
-  color: blueviolet;
+nav a:hover {
+  color: var(--pink-light);
 }
+.active {
+  color: var(--pink-dark);
+}
+
 footer h3 {
   transition: all 0.6s ease-in-out;
+  margin-bottom: 20px;
+  color: var(--pink-dark);
+  font-size: 25px;
 }
 footer h3:hover {
   font-size: 30px;
-  color: #fa2fbd;
+  color: var(--pink-light);
   font-weight: 500px;
 }
 footer a {
   transition: all 0.4s ease-in-out;
+  color: var(--pink-light);
+  background-color: rgb(203, 0, 123, 0.1);
+  padding: 10px 5px;
+  border-radius: 50%;
 }
 footer a:hover {
   font-size: 35px;
+  color: var(--pink-dark);
 }
 @media (max-width: 900px) {
   h1 {
