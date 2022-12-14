@@ -119,10 +119,20 @@ footer a {
   padding: 10px 5px;
   border-radius: 50%;
 }
-footer a:hover {
+footer a,
+.content-section a:hover {
   font-size: 35px;
   color: var(--pink-dark);
 }
+.content-section a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: var(--secondary-color);
+  font-size: 25px;
+  opacity: 0.6;
+  font-weight: 500;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
