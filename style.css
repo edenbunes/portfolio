@@ -55,12 +55,13 @@ h4 {
 .contact-info {
   background-color: var(--primary-color);
   margin: 50px 235px;
-  padding: 40px;
+  padding: 40px 0px 1px;
   text-align: center;
   border-radius: 10px;
 }
 .icon-contact {
   font-size: 40px;
+  margin-bottom: 15px;
 }
 .content-section {
   margin: 160px auto;
@@ -100,7 +101,9 @@ nav a:hover {
 .active {
   color: var(--pink-dark);
 }
-
+footer p a {
+  text-decoration: none;
+}
 footer h3 {
   transition: all 0.6s ease-in-out;
   margin-bottom: 30px;
@@ -112,17 +115,16 @@ footer h3:hover {
   color: var(--pink-light);
   font-weight: 500px;
 }
-footer a {
-  transition: all 0.3s ease-in-out;
+.icon-contact a {
   color: var(--pink-light);
   background-color: rgb(203, 0, 123, 0.1);
   padding: 10px 5px;
   border-radius: 50%;
+  transition: all 0.2s ease-in-out;
 }
-footer a,
-.content-section a:hover {
-  font-size: 35px;
+.icon-contact a:hover {
   color: var(--pink-dark);
+  font-size: 30px;
 }
 .content-section a {
   text-decoration: none;
@@ -132,7 +134,10 @@ footer a,
   opacity: 0.6;
   font-weight: 500;
 }
-
+.content-section a:hover {
+  font-size: 35px;
+  color: var(--pink-dark);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
