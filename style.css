@@ -7,16 +7,13 @@
 }
 body {
   color: var(--secondary-color);
+  font-family: var(--primary-font-family);
 }
 nav {
   background-color: var(--primary-color);
 }
-nav p a {
-  font-size: 30px;
-  font-family: "Playfair Display", serif;
-}
+
 p {
-  font-family: var(--primary-font-family);
   margin-bottom: 48px;
   line-height: 30px;
   opacity: 0.8;
@@ -27,10 +24,12 @@ nav li {
   list-style: none;
   line-height: 50px;
 }
+nav p a {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
 nav a,
 .contact-info p {
-  font-family: var(--primary-font-family);
-
   text-decoration: none;
   font-weight: 500;
   color: var(--secondary-color);
@@ -50,15 +49,8 @@ h2 {
   font-size: 36px;
 }
 h3 {
-  font-family: var(--primary-font-family);
   font-weight: normal;
   font-size: 30px;
-}
-h4 {
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 60px;
-  font-size: 23px;
 }
 .active {
   color: var(--pink-dark);
@@ -69,7 +61,6 @@ h4 {
   text-align: center;
 }
 .btn-project {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 18px;
   padding: 18px 24px;
@@ -130,6 +121,10 @@ h4 {
 .content-section {
   margin: 100px auto;
 }
+.content-section h1 {
+  font-size: 65px;
+  margin-bottom: 60px;
+}
 .contact-links {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -142,11 +137,6 @@ h4 {
   font-size: 35px;
   color: var(--pink-dark);
 }
-.content-section h1 {
-  font-size: 65px;
-  margin-bottom: 60px;
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 66px;
