@@ -182,6 +182,7 @@ h3 {
 @media (max-width: 992px) {
   .projects {
     height: auto;
+    width: auto;
     text-align: center;
   }
 }
