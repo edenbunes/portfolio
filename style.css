@@ -173,11 +173,15 @@ h3 {
   }
   .projects {
     text-align: center;
-    width: auto;
-    height: auto;
     margin-bottom: 10px;
   }
   .contact-links {
     font-size: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .projects {
+    height: auto;
+    text-align: center;
   }
 }
