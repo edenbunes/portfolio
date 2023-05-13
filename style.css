@@ -78,13 +78,11 @@ h3 {
   width: 550px;
   height: 550px;
   margin: auto;
+  vertical-align: middle;
+  display: table-cell;
 }
 .img-projects {
-  padding: 30px;
-  display: block;
-  margin: auto;
-  border-radius: 10%;
-  max-width: 90%;
+  border-radius: 2%;
 }
 .contact-info {
   background-color: var(--primary-color);
