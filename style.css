@@ -86,6 +86,9 @@ h3 {
 .img-projects {
   border-radius: 2%;
 }
+.img-me {
+  max-width: 80%;
+}
 .project-info {
   margin: 10px;
   height: 125px;
